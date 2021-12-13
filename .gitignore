@@ -1,0 +1,35 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/dist
+/tmp
+/coverage
+*.tsbuildinfo
+**/*.js.map
+**/*.d.ts
+src/**/*.js
+
+# Dependencies
+/node_modules
+
+# IDEs and editors
+.idea/
+!.idea/runConfigurations/
+!.idea/codeStyleSettings.xml
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+xcuserdata/
+*.sublime-workspace
+*.iml
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+*.log
